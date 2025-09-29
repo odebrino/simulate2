@@ -1,0 +1,24 @@
+# Virtual environments
+ai-env/
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Large data and models
+data/
+models/
+
+# System files
+.DS_Store
+Thumbs.db
