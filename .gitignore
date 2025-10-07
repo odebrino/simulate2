@@ -1,24 +1,72 @@
-# Virtual environments
-ai-env/
-venv/
-.env/
-
-# Python cache
+# === Python ===
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+*.iml
 
 # Logs
 *.log
+logs/
 
-# Jupyter notebook checkpoints
-.ipynb_checkpoints/
+# === Unity / ARBridge (optional future use) ===
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+MemoryCaptures/
+*.unitypackage
 
-# Large data and models
-data/
-models/
-
-# System files
+# === OS-specific ===
 .DS_Store
 Thumbs.db
